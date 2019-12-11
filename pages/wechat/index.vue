@@ -1,5 +1,5 @@
 <template>
-	<view class="">
+	<view  class="lee-nav-margin-top">
 		<uni-nav-bar :fixed="true" left-text="微信(2)">
 			<block slot="right">
 				<uni-icons class="lee-marin-right-40" type="search" color="#333333" size="22" />
