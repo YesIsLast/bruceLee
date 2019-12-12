@@ -1,15 +1,23 @@
-.lee-marin-right-40{
+.lee-marin-right-40 {
 	margin-right: 40rpx;
 }
-.lee-padding-20{
+
+.lee-padding-20 {
 	padding: 20rpx;
 }
-.lee-border-bottom{
+
+.lee-border-bottom {
 	border-bottom: solid 1rpx #EBE9E8;
 }
-.lee-padding-15{
+
+.lee-padding-15 {
 	padding: 15rpx;
 }
-.lee-paddingLeft-15{
+
+.lee-paddingLeft-15 {
 	padding: 15rpx;
+}
+
+.lee-nav-margin-top {
+	margin-top: 30rpx;
 }

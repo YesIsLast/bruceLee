@@ -1,6 +1,6 @@
 <template>
-	<view>
-		<!-- 页头导航 -->
+	<!-- 页头导航 -->
+	<view class="lee-nav-margin-top">
 		<uni-nav-bar :fixed="true" left-text="微信(2)">
 			<block slot="right">
 				<uni-icons class="lee-marin-right-40" type="search" color="#333333" size="22" />
@@ -19,7 +19,7 @@
 					{{msg}}
 				</view>
 			</view>
-			
+
 		</view>
 
 
@@ -47,7 +47,7 @@
 </script>
 
 <style>
-/* 	.text {
+	/* 	.text {
 		margin: 15upx 10upx;
 		padding: 0 20upx;
 		background-color: #ebebeb;

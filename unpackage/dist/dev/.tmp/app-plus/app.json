@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/wechat/index",
+    "pages/addresBook/index",
+    "pages/found/index",
+    "pages/my/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Hello uniapp",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "backgroundColorTop": "#F4F5F6",
+    "backgroundColorBottom": "#F4F5F6",
+    "animationType": "pop-in"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/wechat/index",
+        "iconPath": "static/icon/weChat.png",
+        "selectedIconPath": "static/icon/weChat.png",
+        "text": "微信"
+      },
+      {
+        "pagePath": "pages/addresBook/index",
+        "iconPath": "static/icon/addressBook.png",
+        "selectedIconPath": "static/icon/addressBook.png",
+        "text": "通讯录"
+      },
+      {
+        "pagePath": "pages/found/index",
+        "iconPath": "static/icon/found.png",
+        "selectedIconPath": "static/icon/found.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "static/icon/my.png",
+        "selectedIconPath": "static/icon/my.png",
+        "text": "我"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "bruceLee",
+  "compilerVersion": "2.4.2",
+  "usingComponents": {
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar"
+  }
+}
