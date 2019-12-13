@@ -2,6 +2,7 @@
   "navigationBarTitleText": "微信",
   "navigationStyle": "custom",
   "enablePullDownRefresh": true,
+  "scrollIndicator": "none",
   "usingComponents": {
     "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
     "uni-icons": "/components/uni-icons/uni-icons",

@@ -1,9 +1,46 @@
-.lee-marin-right-40{
+.lee-bgc-gray{
+	background-color: #EBE9E8;
+}
+.lee-color-gray {
+	color: darkgoldenrod;
+}
+.lee-height-30{
+	min-height: 10vh;
+}
+
+.lee-marin-right-40 {
 	margin-right: 40rpx;
 }
-.lee-padding-20{
+
+.lee-padding-20 {
 	padding: 20rpx;
 }
-.lee-nav-margin-top{
-	margin-top: 30rpx;
+.lee-padding-10 {
+	padding: 10rpx;
+}
+
+.lee-border-bottom {
+	border-bottom: solid 1rpx #EBE9E8;
+}
+
+.lee-padding-15 {
+	padding: 15rpx;
+}
+
+.lee-paddingLeft-15 {
+	padding: 15rpx;
+}
+
+.lee-nav-padding-top {
+	padding-top: 30rpx;
+}
+.lee-title {
+	font-weight: bold;
+	font-size: 28rpx;
+}
+.lee-text-sm {
+	font-size: 18rpx;
+}
+.lee-align-right {
+	text-align: right;
 }
