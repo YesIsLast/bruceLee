@@ -1,0 +1,14 @@
+
+.thoundes.data-v-3438a919{
+	width: 506rpx;
+	height: 506rpx;
+	background-color: #555555;
+	margin: 0 auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	text-align: center;
+}
+

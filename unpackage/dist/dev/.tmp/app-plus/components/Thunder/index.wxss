@@ -1,0 +1,21 @@
+
+.thunder.data-v-1df2f4ff{
+	width: 80rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	text-align: center;
+}
+.color-red.data-v-1df2f4ff{
+	color: red;
+}
+.nodisplay.data-v-1df2f4ff{
+	border-left: solid 2rpx #FFFFFF;
+	border-top: solid 2rpx #FFFFFF;
+	border-bottom: solid 2rpx #9a9a9a;
+	border-right: solid 2rpx #9a9a9a;
+}
+.display.data-v-1df2f4ff{
+	border: solid 2rpx #7f7f7f;
+	background-color: #bdbdbd;
+}
+

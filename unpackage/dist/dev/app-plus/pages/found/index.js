@@ -1,1 +1,2 @@
+setCssToHead([".",[1],"thoundes.",[1],"data-v-3438a919{ width: ",[0,506],"; height: ",[0,506],"; background-color: #555555; margin: 0 auto; display: -webkit-box; display: -webkit-flex; display: flex; -webkit-flex-wrap: wrap; flex-wrap: wrap; text-align: center; }\n",],undefined,{path:"./pages/found/index.wxss"})();
 document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/found/index.wxml') } }));

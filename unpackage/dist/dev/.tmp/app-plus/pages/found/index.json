@@ -1,4 +1,6 @@
 {
   "navigationBarTitleText": "发现",
-  "usingComponents": {}
+  "usingComponents": {
+    "thunder": "/components/Thunder/index"
+  }
 }
