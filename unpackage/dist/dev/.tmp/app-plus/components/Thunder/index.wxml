@@ -1,1 +1,1 @@
-<view data-event-opts="{{[['tap',[['clickBox',['$event']]]]]}}" class="{{['thunder data-v-1df2f4ff',failClass]}}" bindtap="__e"><block wx:if="{{failClass=='display'}}"><text class="color-red data-v-1df2f4ff">{{data==1?'炸弹':''}}</text></block></view>
+<view data-event-opts="{{[['tap',[['clickBox',['$event']]]]]}}" class="{{['thunder data-v-1df2f4ff',failClass]}}" bindtap="__e"><block wx:if="{{failClass=='display'}}"><text class="color-red data-v-1df2f4ff">{{onedata==1?'炸弹':''}}</text></block></view>

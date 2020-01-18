@@ -1,13 +1,13 @@
 <template>
 	<view class="thunder" @click="clickBox" :class="failClass">
-		<text class="color-red" v-if="failClass == 'display'">{{data==1?'炸弹':''}}</text>
+		<text class="color-red" v-if="failClass == 'display'">{{onedata==1?'炸弹':''}}</text>
 	</view>
 </template>
 
 <script>
 	export default{
 		name:'thunder',
-		props:['data','gameStatus'],
+		props:['onedata','gameStatus'],
 		data(){
 			return {
 				failClass:'nodisplay'
@@ -15,7 +15,7 @@
 		},
 		watch:{
 			"gameStatus":function(newVal){
-				if(newVal == '重新开始' && this.data == 1){
+				if(newVal == '重新开始' && this.onedata == 1){
 					this.failClass = 'display'
 				}else{
 					this.failClass = 'nodisplay'

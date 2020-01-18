@@ -9,13 +9,13 @@
 	color: red;
 }
 .nodisplay.data-v-1df2f4ff{
-	border-left: solid 2rpx #FFFFFF;
-	border-top: solid 2rpx #FFFFFF;
-	border-bottom: solid 2rpx #9a9a9a;
-	border-right: solid 2rpx #9a9a9a;
+	border-left: solid 4rpx #FFFFFF;
+	border-top: solid 4rpx #FFFFFF;
+	border-bottom: solid 4rpx #9a9a9a;
+	border-right: solid 4rpx #9a9a9a;
 }
 .display.data-v-1df2f4ff{
-	border: solid 2rpx #7f7f7f;
+	border: solid 4rpx #7f7f7f;
 	background-color: #bdbdbd;
 }
 

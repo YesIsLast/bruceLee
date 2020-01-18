@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "thunder": "/components/Thunder/index"
+  }
+}

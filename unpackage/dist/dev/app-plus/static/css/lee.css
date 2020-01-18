@@ -1,3 +1,6 @@
+.lee-page-padding{
+	padding: 20rpx;
+}
 .lee-bgc-gray{
 	background-color: #EBE9E8;
 }
@@ -43,4 +46,19 @@
 }
 .lee-align-right {
 	text-align: right;
+}
+.lee-uni-between{
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+}
+.lee-uni-center{
+	-webkit-flex: 1;
+	flex: 1;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.lee-align-center{
+	text-align: center;
 }

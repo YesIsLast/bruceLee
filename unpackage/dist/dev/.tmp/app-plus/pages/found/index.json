@@ -1,6 +1,6 @@
 {
   "navigationBarTitleText": "发现",
   "usingComponents": {
-    "thunder": "/components/Thunder/index"
+    "lee-list": "/components/leelist/index"
   }
 }
