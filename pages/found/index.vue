@@ -1,7 +1,7 @@
 <template>
 	<view class="lee-page-padding">
 		<!-- 列表组件循环 -->
-		<LeeList v-for="(item,index) in componentsList" :key="index"></LeeList>
+		<LeeList v-for="(item,index) in componentsList" :key="index" :componentObj="item"></LeeList>
 	</view>
 </template>
 
@@ -15,7 +15,15 @@
 		},
 		data(){
 			return {
-				componentsList:5
+				componentsList:[{
+						name:'扫雷组件',
+						type:false,
+						componentName:"MainThunder"
+				},{
+						name:'购物车组件',
+						type:false,
+						componentName:"Shopping"
+				}]
 			}
 		}
 	}

@@ -1,6 +1,7 @@
 {
   "component": true,
   "usingComponents": {
-    "main-thunder": "/components/Thunder/main"
+    "main-thunder": "/components/Thunder/main",
+    "shopping": "/components/shopping/index"
   }
 }

@@ -1,6 +1,6 @@
 <template>
 	<view class="">
-		<view>游戏状态：<view class="" @click="nextData()">{{gameStatus}}</view></view>
+		<view style="margin: 0 auto;">游戏状态：<text class="" @click="nextData()">{{gameStatus}}</text></view>
 		
 		<text style="text-align: center;"></text>
 		<view class="thoundes">

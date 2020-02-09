@@ -1,1 +1,1 @@
-<view>我</view>
+<view><input-keyboard vue-id="1" bind:__l="__l"></input-keyboard></view>

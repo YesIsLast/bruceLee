@@ -55,6 +55,7 @@
   "appname": "bruceLee",
   "compilerVersion": "2.5.1",
   "usingComponents": {
-    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar"
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "input-keyboard": "/components/keyboard/index"
   }
 }
