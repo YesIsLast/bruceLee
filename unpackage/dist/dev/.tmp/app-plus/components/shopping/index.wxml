@@ -1,1 +1,0 @@
-<view class="data-v-1b857c63"><block wx:for="{{shoppingList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="data-v-1b857c63">购物车</view></block></view>

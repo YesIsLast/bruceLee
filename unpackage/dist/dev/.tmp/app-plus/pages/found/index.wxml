@@ -1,1 +1,0 @@
-<view class="lee-page-padding data-v-3438a919"><block wx:for="{{componentsList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><lee-list vue-id="{{'1-'+index}}" componentObj="{{item}}" class="data-v-3438a919" bind:__l="__l"></lee-list></block></view>

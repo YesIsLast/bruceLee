@@ -1,12 +1,17 @@
 import Vue from 'vue'
 import App from './App'
-import uniNavBar from "components/uni-nav-bar/uni-nav-bar.vue"
-import inputKeyboard from "components/keyboard/index.vue"
+
+// 引入组件库
+import uView from "uview-ui";
+Vue.use(uView);
+// 注册全局混入
+import mixin from "mixin/mixin.js"
+Vue.mixin(mixin)
+// 注册全局通用方法
+import utils from "common/utils.js"
+Vue.prototype.$utils = utils
 
 Vue.config.productionTip = false
-// 全局组件注册
-Vue.component('uniNavBar',uniNavBar)
-Vue.component('inputKeyboard',inputKeyboard)
 
 App.mpType = 'app'
 
